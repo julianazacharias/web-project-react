@@ -20,7 +20,7 @@ export default function DefinitionSearch() {
 					setWord(e.target.value);
 				}}
 			/>
-			<button className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-1 px-2 rounded">
+			<button className="bg-green-600 hover:bg-green-700 text-white font-bold py-1 px-2 rounded">
 				Search
 			</button>
 		</form>
