@@ -14,13 +14,13 @@ export default function AddCustomer(props) {
 	return (
 		<>
 			<button
-				onClick={props.toggleShow}
+				onClick={handleShow}
 				className="block m-2 bg-purple-600 hover:bg-purple-800 text-white font-bold py-2 px-4 rounded"
 			>
 				+ Add Customer
 			</button>
 			<Modal
-				show={props.show}
+				show={show}
 				onHide={handleClose}
 				backdrop="static"
 				keyboard={false}
@@ -88,7 +88,7 @@ export default function AddCustomer(props) {
 				<Modal.Footer>
 					<button
 						className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
-						onClick={props.toggleShow}
+						onClick={handleClose}
 					>
 						Close
 					</button>
